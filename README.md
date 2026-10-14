@@ -123,6 +123,7 @@ x402 is an emerging open standard from the Coinbase ecosystem focused on safer, 
 - [x402charity](https://x402charity.com) — Open-source micro-donation server. Triggers USDC charity donations on every HTTP event via x402. Express/Next.js middleware, CLI, Vercel-ready. ([GitHub](https://github.com/allscale-io/x402charity)) ([npm](https://www.npmjs.com/package/x402charity))
 
 ### Example Apps
+- [Base Wallet Profile API](https://x402-wallet-profile-api-production.up.railway.app/) — x402-paid `GET /wallet/{address}` for Base wallet balance, transaction and token-transfer history, and heuristic risk signals; $0.01 USDC per request on Base. Heuristic research signal, not identity verification or a guarantee of wallet safety. [OpenAPI](https://x402-wallet-profile-api-production.up.railway.app/openapi.json) · [x402scan listing](https://www.x402scan.com/server/5e21f940-da98-473c-bd65-11f275501fcd)
 - [QuickNode Video Paywall Demo](https://www.quicknode.com/sample-app-library/coinbase-x402)
 - [Hyperbolic x402 Chat API (LLM Pay-per-Request)](https://github.com/HyperbolicLabs/hyperbolic-x402)
 - [CoinMarketCap x402 API](https://coinmarketcap.com/api/documentation/ai-agent-hub/skills/cmc-x402) - Pay-per-request crypto market data and MCP access over x402 with USDC settlement on Base.
